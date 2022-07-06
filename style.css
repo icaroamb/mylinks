@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(imagens/fundo.jpg);
+    color: white;
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 28px;
+}
+
+#cargo{
+    font-size: 20px;
+    font-style: italic;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main{
+    width: 100%;
+    padding-top: 30px;
+    background-color: green;
+    background-image: url(imagens/fundo.jpg);
+}
+
+div{
+    background-color: aliceblue;
+    width: 50%;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 30px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+div:hover{
+    background-color: rgba(0, 0, 0, 0.051);
+    filter: invert(1);
+    transition: 0.5s;
+}
+
+.logo{
+    width: 40px;
+    margin-right: 10px;
+}
+#fim{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+@media (min-width: 320px) and (max-width: 1000px){
+    div{
+        justify-content: center;
+        width: 90%;
+    }
+}
+
+
